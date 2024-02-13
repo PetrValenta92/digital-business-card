@@ -14,6 +14,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: rgba(220, 220, 220, 1);
+    background-color: #ffffff;
+  }
+}
+
 /* RESET */
 /* CSS Reset https://andy-bell.co.uk/a-modern-css-reset/ */
 
@@ -65,11 +72,4 @@ h3 {
 p {
   font-size: 0.7rem;
   line-height: 1.5;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: rgba(74, 78, 116, 1);
-    background-color: #ffffff;
-  }
 }
