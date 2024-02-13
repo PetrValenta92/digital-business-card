@@ -1,6 +1,6 @@
 import profile from '../images/profile.jpg';
-import mail_icon from '../images/mail_icon.svg';
-import linkedin_icon from '../images/linkedin_icon.svg';
+import mailIcon from '../images/mail.svg';
+import linkedinIcon from '../images/linkedin.svg';
 
 export default function Info() {
     return (
@@ -13,11 +13,11 @@ export default function Info() {
                 <p>React Developer</p>
                 <div className='bio__contacts'>
                     <a className='contacts__email' href="mailto:petr.valenta.92@gmail.com">
-                        <img src= { mail_icon } alt="Email icon" />
+                        <img src= { mailIcon } alt="Email icon" />
                         <p>Email</p>
                     </a>
                     <a className='contacts__linkedIn' href="https://www.linkedin.com/in/valentapetr/" target='_blank'>
-                        <img src= { linkedin_icon } alt="LinkedIn icon" />
+                        <img src= { linkedinIcon } alt="LinkedIn icon" />
                         <p>LinkedIn</p>
                     </a>
                 </div>
