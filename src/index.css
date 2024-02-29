@@ -42,7 +42,8 @@ p {
 }
 
 /* Make images easier to work with */
-img {
+img,
+svg {
   display: block;
   object-fit: cover;
 }
