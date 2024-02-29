@@ -111,3 +111,14 @@
   border-bottom-right-radius: 1rem;
   background-color: rgba(22, 22, 25, 1);
 }
+
+.footer > a > svg {
+  width: 25px;
+  height: 25px;
+  fill: rgba(145, 142, 155, 1);
+}
+
+.footer > a:nth-child(3) > svg {
+  width: 26px;
+  height: 26px;
+}
