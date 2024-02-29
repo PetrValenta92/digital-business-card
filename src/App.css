@@ -48,6 +48,32 @@
   border: 1px solid rgba(209, 213, 219, 1);
 }
 
+.contacts__email > svg {
+  width: 1.1rem;
+  height: 1rem;
+  fill: rgba(30, 31, 38, 1);
+}
+
+@media (width > 23rem) {
+  .contacts__email > svg {
+    width: 1.6rem;
+    height: 1.5rem;
+  }
+}
+
+.contacts__linkedIn > svg {
+  width: 1rem;
+  height: 1rem;
+  fill: rgba(255, 255, 255, 1);
+}
+
+@media (width > 23rem) {
+  .contacts__linkedIn > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
 .contacts__email > p,
 .contacts__linkedIn > p {
   font-size: 0.825rem;
@@ -70,7 +96,7 @@
 .contacts__email:hover,
 .contacts__email:active,
 .contacts__email:focus-visible {
-  background-color: rgba(209, 213, 219, 1);
+  background-color: rgba(243, 191, 153, 1);
 }
 
 .contacts__linkedIn {
@@ -113,14 +139,14 @@
 }
 
 .footer > a > svg {
-  width: 25px;
-  height: 25px;
+  width: 1.6rem;
+  height: 1.6rem;
   fill: rgba(145, 142, 155, 1);
 }
 
 .footer > a:nth-child(3) > svg {
-  width: 26px;
-  height: 26px;
+  width: 1.625rem;
+  height: 1.625rem;
 }
 
 .footer > a > svg:hover,
@@ -131,12 +157,12 @@
 
 @media (width > 23rem) {
   .footer > a > svg {
-    width: 37px;
-    height: 37px;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 
   .footer > a:nth-child(3) > svg {
-    width: 39px;
-    height: 39px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
