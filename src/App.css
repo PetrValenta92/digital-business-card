@@ -1,6 +1,6 @@
 #root {
-  max-width: 20rem;
-  margin: 2.75rem auto 0;
+  max-width: 30rem;
+  margin: 1.5rem auto 0;
   text-align: center;
   border-radius: 1rem;
   background-color: rgba(26, 27, 33, 1);
@@ -22,6 +22,12 @@
   font-size: 0.8rem;
   text-transform: uppercase;
   color: rgba(243, 191, 153, 1);
+}
+
+@media (width > 23rem) {
+  .info__bio > p {
+    font-size: 1.2rem;
+  }
 }
 
 .bio__contacts {
@@ -46,6 +52,13 @@
 .contacts__linkedIn > p {
   font-size: 0.825rem;
   line-height: 1.2;
+}
+
+@media (width > 23rem) {
+  .contacts__email > p,
+  .contacts__linkedIn > p {
+    font-size: 1.25rem;
+  }
 }
 
 .contacts__email {

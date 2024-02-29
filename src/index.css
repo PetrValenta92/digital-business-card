@@ -61,6 +61,12 @@ h1 {
   color: rgba(255, 255, 255, 1);
 }
 
+@media (width > 23rem) {
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+
 h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -69,7 +75,19 @@ h3 {
   color: rgba(245, 245, 245, 1);
 }
 
+@media (width > 23rem) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
 p {
   font-size: 0.7rem;
   line-height: 1.5;
+}
+
+@media (width > 23rem) {
+  p {
+    font-size: 1rem;
+  }
 }
