@@ -68,7 +68,7 @@
 }
 
 .contacts__email:hover,
-.contacts__email:focus,
+.contacts__email:active,
 .contacts__email:focus-visible {
   background-color: rgba(209, 213, 219, 1);
 }
@@ -80,7 +80,7 @@
 }
 
 .contacts__linkedIn:hover,
-.contacts__linkedIn:focus,
+.contacts__linkedIn:active,
 .contacts__linkedIn:focus-visible {
   background-color: rgba(2, 62, 138, 1);
 }
@@ -121,4 +121,22 @@
 .footer > a:nth-child(3) > svg {
   width: 26px;
   height: 26px;
+}
+
+.footer > a > svg:hover,
+.footer > a > svg:active,
+.footer > a > svg:focus-visible {
+  fill: rgba(243, 191, 153, 1);
+}
+
+@media (width > 23rem) {
+  .footer > a > svg {
+    width: 37px;
+    height: 37px;
+  }
+
+  .footer > a:nth-child(3) > svg {
+    width: 39px;
+    height: 39px;
+  }
 }
